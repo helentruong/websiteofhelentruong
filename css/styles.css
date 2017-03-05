@@ -24,8 +24,8 @@ footer {
   text-align: center;
 }
 
-/* Set new setting when the width is smaller than 700 pixels */
-@media (max-width: 700px) {
+/* Set new setting when the width is smaller than 950 pixels */
+@media (max-width: 950px) {
 
 	/* Set text alignment to rent of the image when the width is smaller than 700 pixels */
 	image {

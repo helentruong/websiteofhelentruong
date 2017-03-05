@@ -3,6 +3,7 @@
 
         <title> HELEN TRUONG </title>
         <link rel="stylesheet" type="text/css" href="./css/styles.css"> 
+        <script src="js/script.js"></script>
 <head>
 <style>
 .parallax {
@@ -27,7 +28,7 @@
 <div class="parallax"></div>
 <div style="height:100px;background-color:#ffeecc;font-size:36px">
 Helen Truong
-<br> <br>
+<br> 
 "Aspiring software developer and tester"
 </div>
 
@@ -35,7 +36,6 @@ Helen Truong
 </html>
 
 <main>
-
 
 <style>
 /*menu of my page*/
@@ -101,10 +101,13 @@ I became passionate about the IT industry after working as a QA analyst on a pro
  
 
             </p>
-
+</section>
         
+<div>
 
-        </section>
+<button onclick="revealMessage() ">CLICK HERE FOR AN INSPIRATIONAL QUOTE</button>
+<p id="hiddenMessage" style="display:none"> <img src="image/inspirationalquote.jpeg"></p>
+</div>
 
    <section class="skills" id="skills">
    <h1> Skills </h1>
@@ -156,8 +159,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-input[type=submit] {
+input[type=button] {
     width: 100%;
     background-color:  #ffeecc;
     color:  #4d3319;
@@ -168,7 +170,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
     background-color:  #b3e6ff;
 }
 
@@ -192,16 +194,16 @@ div {
     <label for="way">Preferred Form of Communication</label>
     <select id="way" name="way">
     <br>
-   
     <br>
       <option value="email">Email</option>
       <option value="phone">Phone</option>
     </select>
      <label for="reason">Reason for Inquiry</label>
     <input type="text" id="reason" name="reason" placeholder="You are inquiring about...">
-  
-    <input type="submit" value="Submit">
-  </form>
+
+<onclick="revealMessage() "> <input type="button" value="Submit" alt="This is currently being under construction">
+<p id="hiddenMessage" style="display:none"> <img src="image/construction.html"></p> 
+
 </div>
 
 </html>
@@ -215,6 +217,6 @@ div {
 
 <footer>
   <h2>
-    This website was created by Helen Truong 2017 &copy;  
+    This website was created by Helen Truong 2017&copy;  
   </h2>
 </footer>

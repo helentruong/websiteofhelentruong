@@ -1,0 +1,33 @@
+
+
+h1 {
+  /* Set border along bottom to be a black solid line 5 pixels thick */
+  border-bottom: 5px solid black;
+}
+
+p {
+	/* set font to be cold */
+	font:bold;
+}
+
+script
+{
+	text-alight: center;
+}
+
+footer {
+	/* Set the foot's background color to be black */
+  background-color: black;
+  /* Set the font color to be white */
+  color: white;
+  /* Set the text alignment to center */ 
+  text-align: center;
+}
+
+/* Set new setting when the width is smaller than 700 pixels */
+@media (max-width: 700px) {
+
+	/* Set text alignment to rent of the image when the width is smaller than 700 pixels */
+	image {
+		text-align:right;
+	}

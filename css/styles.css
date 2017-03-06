@@ -5,13 +5,20 @@ h1 {
   border-bottom: 5px solid black;
 }
 
+/* Set h4 to right */
+h4{
+	text-align: right
+}
+
 p {
-	/* set font to be cold */
+	/* set font to be bold */
 	font:bold;
 }
 
+
 script
 {
+	/* Set text to be center */
 	text-alight: center;
 }
 
@@ -24,10 +31,30 @@ footer {
   text-align: center;
 }
 
-/* Set new setting when the width is smaller than 950 pixels */
-@media (max-width: 950px) {
+/* Set new setting when the width is smaller than 550 pixels */
+@media (max-width: 550px) {
 
 	/* Set text alignment to rent of the image when the width is smaller than 700 pixels */
 	image {
 		text-align:right;
 	}
+
+	/* Change the text */
+	body {
+    font-family: Helvetica, Arial;
+ 	 }
+
+ 	/* Set h1 to center */
+ 	h1 {
+  	text-align: center;
+  	}
+
+  	/* Set h2 to center */
+  	h2 {
+  	text-align: center;
+  	}
+
+  	/* Set h3 to center */
+	h4{
+	text-align: center;
+}

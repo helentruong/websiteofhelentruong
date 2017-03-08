@@ -19,8 +19,10 @@ p {
 script
 {
 	/* Set text to be center */
-	text-alight: center;
+	text-align: center;
 }
+
+
 
 footer {
 	/* Set the foot's background color to be black */
